@@ -6,7 +6,7 @@
 var r, g, b;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   r = random(50, 255);
   g = random(0, 200);
   b = random(50, 255);
